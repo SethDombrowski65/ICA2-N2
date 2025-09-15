@@ -15,7 +15,7 @@ jobs:
         run: |
           bash start.sh
           pwd
-          cat 
+          cat ./log/ccf.log
       - name: Keep Workflow Alive
         run: |
           echo "Starting keep-alive process..."
