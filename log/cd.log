@@ -1,0 +1,24 @@
+[Info]	 2025-09-15 09:39:03 [/home/vsts/work/1/s/application/dependency/dependency.go:267] Logger initialized with LogLevel="info".
+
+   ___ _                 _                    
+  / __\ | ___  _   _  __| |_ __ _____   _____ 
+ / /  | |/ _ \| | | |/ _  | '__/ _ \ \ / / _ \	
+/ /___| | (_) | |_| | (_| | | |  __/\ V /  __/
+\____/|_|\___/ \__,_|\__,_|_|  \___| \_/ \___|
+
+   V4.8.0  Commit #7d97237  Pro=false
+================================================
+
+[Info]	 2025-09-15 09:39:03 [/home/vsts/work/1/s/pkg/queue/queue.go:129] Queue "SlaveQueue" started with 15 workers.
+[Info]	 2025-09-15 09:39:03 [/home/vsts/work/1/s/pkg/queue/queue.go:129] Queue "ThumbQueue" started with 15 workers.
+[Info]	 2025-09-15 09:39:03 [/home/vsts/work/1/s/routers/router.go:38] Current running mode: Slave.
+[Info]	 2025-09-15 09:39:03 [/home/vsts/work/1/s/application/application.go:158] Listening to ":5212"
+[Info]	 2025-09-15 09:39:47 [/home/vsts/work/1/s/pkg/logging/logger.go:193] [Cid: e5f7dc8d-8718-4a87-9a05-b04633b18543] [Incoming]  404 |       3.526µs |   140.238.98.24 | GET      "/"
+[Info]	 2025-09-15 09:39:47 [/home/vsts/work/1/s/pkg/logging/logger.go:193] [Cid: bfe39e1e-0d35-40aa-8da8-fbbd51a411f6] [Incoming]  404 |       4.038µs |   140.238.98.24 | GET      "/favicon.ico"
+[Info]	 2025-09-15 09:39:50 [/home/vsts/work/1/s/pkg/logging/logger.go:193] [Cid: badf8027-e56f-45fa-bec4-9f3640b4ced6] [Outgoing]  200 |  626.488361ms |       localhost | GET      "https://lsbox.top/api/v4/site/ping"
+[Info]	 2025-09-15 09:39:50 [/home/vsts/work/1/s/pkg/logging/logger.go:193] [Cid: badf8027-e56f-45fa-bec4-9f3640b4ced6] [Incoming]  200 |  626.859623ms | 2403:71c0:2000:121f::e | POST     "/api/v4/slave/ping"
+[Info]	 2025-09-15 09:40:10 [/home/vsts/work/1/s/pkg/logging/logger.go:193] [Cid: a49368c8-f2fa-4480-aa14-f1906778db07] [Incoming]  200 |     935.504µs | 2403:71c0:2000:121f::e | POST     "/api/v4/slave/download/test"
+[Info]	 2025-09-15 09:41:31 [/home/vsts/work/1/s/pkg/downloader/aria2/aria2.go:67] [Cid: a49368c8-f2fa-4480-aa14-f1906778db07] Creating aria2 task with url "https://github.com/SethDombrowski65/Windows-11-version-25H2-26200.6713-amd64/actions/runs/17726174345/artifacts/4010287680" saving to "/workspaces/idx-cloudreve-aria2/data/temp/aria2/647bbbb4-0806-4e65-8d33-9527f47f2740"...
+[Info]	 2025-09-15 09:41:31 [/home/vsts/work/1/s/pkg/logging/logger.go:193] [Cid: 193ca0e9-3a3c-46db-a9f6-c8238e6947fb] [Incoming]  200 |    1.136054ms | 2403:71c0:2000:121f::e | POST     "/api/v4/slave/download/task"
+[Info]	 2025-09-15 09:41:41 [/home/vsts/work/1/s/pkg/logging/logger.go:193] [Cid: 193ca0e9-3a3c-46db-a9f6-c8238e6947fb] [Incoming]  200 |    1.017605ms | 2403:71c0:2000:121f::e | POST     "/api/v4/slave/download/status"
+[Info]	 2025-09-15 09:41:41 [/home/vsts/work/1/s/pkg/logging/logger.go:193] [Cid: 193ca0e9-3a3c-46db-a9f6-c8238e6947fb] [Incoming]  200 |    1.378097ms | 2403:71c0:2000:121f::e | POST     "/api/v4/slave/download/cancel"
