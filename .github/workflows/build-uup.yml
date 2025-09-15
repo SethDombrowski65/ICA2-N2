@@ -1,0 +1,25 @@
+name: ICA2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-forever:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install and Start Application
+        run: |
+          bash start.sh
+          pwd
+          cat 
+      - name: Keep Workflow Alive
+        run: |
+          echo "Starting keep-alive process..."
+          while true; do
+            echo "Workflow still running at $(date)"
+            sleep 300
+          done
